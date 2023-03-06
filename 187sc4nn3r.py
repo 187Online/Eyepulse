@@ -28,7 +28,7 @@ WARNING,ON_PROC,STARTING,END =  '\033[1;91m', '\33[1;97m','\033[1;32m', '\033[0m
 
 class PortScanner : 
     
-    def __init__(self) : # Delete 'http' or 'https' 
+    def __init__(self) : 
         
         getbanner()
         
