@@ -1,7 +1,7 @@
-# 187Sc4nn3r Python Port Scanner 
+# 187Scanner Python Port Scanner 
 
-## About 187Sc4nn3r 
-187Sc4nn3r is a versatile Python port scanning tool with 13 methods
+## About 187Scanner 
+187Scanner is a versatile Python port scanning tool with 13 methods
 <img src="https://github.com/187FrankCisco/187Sc4nn3r/blob/main/start.png?raw=true" >
 
 
@@ -37,13 +37,13 @@ Go to project file :
 Get help :
 
 ```bash
-  python 187Sc4nn3r.py --help
+  python 187Scanner.py --help
 ```
 
 Example :
 
 ```bash
-  python 187Sc4nn3r.py --zombie_scan --zombie 192.168.1.1 --victim 192.168.1.99
+  python 187Scanner.py --zombie_scan --zombie 192.168.1.1 --victim 192.168.1.99
 ```
 ## License
 
