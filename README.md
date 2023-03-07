@@ -24,7 +24,7 @@
 Installation :
 
 ```bash
-  git clone  https://github.com/187FrankCisco/187Sc4nn3r.git
+  git clone  https://github.com/187FrankCisco/187Scanner.git
 
 ```
 
