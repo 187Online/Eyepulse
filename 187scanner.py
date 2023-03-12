@@ -38,15 +38,15 @@ class PortScanner :
         1-GET IP ADDRESS 
         2-ICMP SERVER CONTROL 
         3-SHOW PORT LIST 
-        4-FAST SCAN(COMMON PORTS)  
-        5-FULL SCAN(PORT LIST)  
+        4-FAST SCAN (COMMON PORTS)  
+        5-FULL SCAN   
         6-RANGE SCAN(1 to 65535)  
-        7-PING SCAN = ping_scan 
-        8-ICMP SCAN = icmp_scan 
-        9-NET RECON(FASTEST ARP PING SCAN) 
+        7-PING SCAN 
+        8-ICMP SCAN
+        9-NET RECON (FASTEST ARP PING SCAN) 
         10-STEALTH SCAN 
         11-TCP/ACK SCAN 
-        12-ZOMBIE SCAN(NEED ZOMBIE MACHINE)
+        12-ZOMBIE SCAN (NEED ZOMBIE MACHINE)
         13-UDP SCAN 
         ---------------------------------
                     --help
@@ -133,8 +133,28 @@ class PortScanner :
                      13702, 13705, 13706, 13708, 13709, 13710, 13711, 13712, 13713, 13714, 13715, 13716, 13717]
     
     def get_ip(self,url) :       
-        ip = IP(dst=url).dst 
-        print(ip)
+        try : 
+            
+            parsed_url = urlparse(url)     
+        
+            probe_packet = sr1(IP(dst=parsed_url.netloc)/ICMP(),verbose=False)
+            
+            url_data = STARTING +f"""
+            Scheme : {parsed_url.scheme}
+            Domain :  {parsed_url.netloc}
+            Path   :  {parsed_url.path}
+            Params : {parsed_url.params}
+            Query  :   {parsed_url.query}
+            ragment : {parsed_url.fragment}
+            Ip Address : {probe_packet.src}
+            """ + END
+            
+            print(url_data)
+    
+        except : 
+            print(WARNING + 
+                'CHECK URL'
+                +END )
    
     def server_control(self,server_addr) :
         control_packet = IP(dst=server_addr)/ICMP()
