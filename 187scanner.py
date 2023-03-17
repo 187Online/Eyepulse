@@ -11,7 +11,7 @@ Developed by 187Online  1/03/2023
 
 Version = 1.0 
 
-*******WILL BE UPDATED*******
+*******WILL BE UPDATED SOON *******
 
 
 """
