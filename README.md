@@ -6,10 +6,10 @@
 
 
 ## Module Requirement
-* scapy for  TCP/ACK SCAN / ICMP SCAN / STEALTH SCAN / ZOMBIE SCAN / UDP SCAN / ARP PİNG
-* pythonping  for ARP PİNG
-* argparse  for CLI
-* prettytable  for NET_SHOW
+* scapy 
+* pythonping  
+* argparse 
+* prettytable 
 
 ## ⚠️ Usage Warnings ⚠️
 * Select the device with the least traffic on your network for zombie scanning, otherwise it may     not work as expected
