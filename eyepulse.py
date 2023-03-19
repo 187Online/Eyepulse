@@ -116,7 +116,7 @@ class PortScanner :
     def usage(self) :
         print(WHITE + """
               
-                                        EYEPULSE Port Scanner Tool 
+                                 EYEPULSE Port Scanner Tool 
               
 --------------------------------------------------------------------------------------------------
                                                                                                   #
