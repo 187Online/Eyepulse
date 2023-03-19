@@ -1,8 +1,21 @@
-# 187Scanner Python Port Scanner 
+#                                  Eyepulse 
 
-## About 187Scanner 
-187Scanner is a versatile Python port scanning tool with 13 methods
-<img src="https://github.com/187FrankCisco/187Sc4nn3r/blob/main/start.png?raw=true" >
+## About Eyepulse  
+Eyepulse is a versatile Python port scanning tool with 13 methods
+* Get ip address
+* Control server 
+* Show port list 
+* Fast scan
+* Full scan
+* Range scan
+* Ping scan
+* ICMP scan
+* Net recon
+* Stealth scan
+* TCP/ACK scan
+* XMAS scan
+* Zombie scan
+* UDP scan
 
 
 ## Module Requirement
@@ -12,7 +25,7 @@
 * prettytable 
 
 ## ⚠️ Usage Warnings ⚠️
-* Select the device with the least traffic on your network for zombie scanning, otherwise it may     not work as expected
+* Select the device with the least traffic on your network for zombie scanning, otherwise it may  not work as expected
 * If you encounter a Scapy pcap error, try installing Wireshark and try again
 
 ## Languages
@@ -24,7 +37,7 @@
 Installation :
 
 ```bash
-  git clone  https://github.com/187FrankCisco/187Scanner.git
+  git clone  https://github.com/187Online/Eyepulse.git
 
 ```
 
@@ -37,13 +50,13 @@ Go to project file :
 Get help :
 
 ```bash
-  python 187Scanner.py --help
+  python eyepulse.py 
 ```
 
 Example :
 
 ```bash
-  python 187Scanner.py --zombie_scan --zombie 192.168.1.1 --victim 192.168.1.99
+  python eyepulse.py --zombie_scan --zombie 192.168.1.1 --victim 192.168.1.99
 ```
 ## License
 
