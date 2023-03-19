@@ -1,7 +1,7 @@
 #                                  Eyepulse 
 
 ## About Eyepulse  
-Eyepulse is a versatile Python port scanning tool with 13 methods
+Eyepulse is a versatile Python port scanning tool with 14 methods
 * Get ip address
 * Control server 
 * Show port list 
