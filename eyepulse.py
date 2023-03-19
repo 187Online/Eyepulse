@@ -134,7 +134,7 @@ FLAGS :                      Description                               ARGS     
 -tcpS                        TCP/ACK scan                             -sA -tO -sN                 # 
 -xmas                        Xmas scan                                -sA -tO                     #
 -zS                          Zombie scan                              -zB -vC -zP -tO             #
--uS                          UDP scan                                -sA -tO                     #
+-uS                          UDP scan                                -sA -tO                      #
                                                                                                   #
 ---------------------------------------------------------------------------------------------------
                                             """ +END)
