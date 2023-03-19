@@ -56,7 +56,7 @@ Get help :
 Example :
 
 ```bash
-  python eyepulse.py -sA 192.168.1.1 -tO 3
+  python eyepulse.py -sS -sA 192.168.1.1 -tO 3
 ```
 ## License
 
